@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6d70e742_cfb3c764",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T15:14:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e495124f_68bf14d1",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 6
+      },
+      "revId": "1dcf087f6e8d2e88ed6d45275b9c96e202e2f12e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6770ba12_0b263f21",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2019-12-10T14:27:14Z",
       "side": 1,
       "message": "There is no documentation in the repo, so we need to remove (or comment out until it\u0027s there) this.",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 33
+      },
+      "revId": "1dcf087f6e8d2e88ed6d45275b9c96e202e2f12e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "329ff298_11d8c2a5",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T15:14:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6770ba12_0b263f21",
       "range": {
         "startLine": 96,
         "startChar": 0,
