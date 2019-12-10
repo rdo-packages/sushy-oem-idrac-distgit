@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2a3b9865_faa61216",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T16:57:24Z",
+      "side": 1,
+      "message": "Alright",
+      "parentUuid": "0e132fa7_1deeaab9",
+      "revId": "49d82f14b88f04d24657e1305fb099648bfebb22",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "298f0b56_83c3bafe",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 7
@@ -30,6 +48,30 @@
       "writtenOn": "2019-12-10T16:46:19Z",
       "side": 1,
       "message": "Are you sure you need these two? Most of openstack projects no longer explicitly depend on them.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "49d82f14b88f04d24657e1305fb099648bfebb22",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6048fe5d_b2c626a2",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T16:57:24Z",
+      "side": 1,
+      "message": "Let\u0027s try w/o them",
+      "parentUuid": "298f0b56_83c3bafe",
       "range": {
         "startLine": 65,
         "startChar": 0,
