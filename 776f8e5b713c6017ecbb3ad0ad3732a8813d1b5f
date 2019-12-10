@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9e5d0442_36e98f74",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T16:39:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68b79906_d08f9b91",
+      "range": {
+        "startLine": 53,
+        "startChar": 10,
+        "endLine": 53,
+        "endChar": 43
+      },
+      "revId": "776f8e5b713c6017ecbb3ad0ad3732a8813d1b5f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f58feb0f_3af6d2c6",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 5
@@ -36,6 +60,24 @@
       "writtenOn": "2019-12-10T15:42:55Z",
       "side": 1,
       "message": "Looking at the logs, the Python module name is sushy_oem_idrac instead of sushy-oem-idrac.",
+      "revId": "776f8e5b713c6017ecbb3ad0ad3732a8813d1b5f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9eb8913_1bffa0af",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 551
+      },
+      "writtenOn": "2019-12-10T16:39:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f58feb0f_3af6d2c6",
       "revId": "776f8e5b713c6017ecbb3ad0ad3732a8813d1b5f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
