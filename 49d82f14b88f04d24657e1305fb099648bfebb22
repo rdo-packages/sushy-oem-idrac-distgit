@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e132fa7_1deeaab9",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-10T16:46:19Z",
+      "side": 1,
+      "message": "I suggest depending on \u003e\u003d 2.0.0 where the new OEM interface was introduced.",
+      "revId": "49d82f14b88f04d24657e1305fb099648bfebb22",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "298f0b56_83c3bafe",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-10T16:46:19Z",
+      "side": 1,
+      "message": "Are you sure you need these two? Most of openstack projects no longer explicitly depend on them.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "49d82f14b88f04d24657e1305fb099648bfebb22",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
