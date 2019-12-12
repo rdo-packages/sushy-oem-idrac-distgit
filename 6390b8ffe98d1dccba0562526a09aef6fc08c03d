@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "36c8aded_baa92b3f",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9fb1ded7_818d7fa6",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 141
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f038bcb7_aee63570",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 9
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "c07fcc7b_8e1672d7",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f038bcb7_aee63570",
+      "range": {
+        "startLine": 26,
+        "startChar": 9,
+        "endLine": 26,
+        "endChar": 150
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4362511c_13b192fc",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 9
@@ -59,6 +107,30 @@
       "writtenOn": "2019-12-12T06:27:14Z",
       "side": 1,
       "message": "https://opendev.org/x/sushy-oem-idrac",
+      "range": {
+        "startLine": 28,
+        "startChar": 5,
+        "endLine": 28,
+        "endChar": 35
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0cbe670a_5f12b263",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4362511c_13b192fc",
       "range": {
         "startLine": 28,
         "startChar": 5,
@@ -118,6 +190,30 @@
     },
     {
       "key": {
+        "uuid": "d7f04c04_16b9bd4e",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2f629a25_acd5129b",
+      "range": {
+        "startLine": 49,
+        "startChar": 35,
+        "endLine": 49,
+        "endChar": 44
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78ae684e_37f1f9fb",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 9
@@ -153,6 +249,24 @@
     },
     {
       "key": {
+        "uuid": "6e06f9fd_89e66d5b",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "592f3116_583183a6",
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04c1ebc6_69ac53b5",
         "filename": "python-sushy-oem-idrac.spec",
         "patchSetId": 9
@@ -164,6 +278,30 @@
       "writtenOn": "2019-12-12T06:27:14Z",
       "side": 1,
       "message": "i see stestr is used to run tests upstream, https://opendev.org/x/sushy-oem-idrac/src/branch/master/tox.ini#L16, good to use same while packaging, Also add BuildRequires on stestr explictly\n\nstestr-%{pyver} run --slowest",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 26
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6564d1fd_98801250",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04c1ebc6_69ac53b5",
       "range": {
         "startLine": 83,
         "startChar": 0,
@@ -211,6 +349,30 @@
       "side": 1,
       "message": "Yes right it\u0027s not needed at all in master packaging, please clean.",
       "parentUuid": "808fe77f_41f12979",
+      "range": {
+        "startLine": 99,
+        "startChar": 52,
+        "endLine": 99,
+        "endChar": 59
+      },
+      "revId": "6390b8ffe98d1dccba0562526a09aef6fc08c03d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "08a2e9df_c633a8af",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2019-12-12T15:07:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "264f81a9_32ee548c",
       "range": {
         "startLine": 99,
         "startChar": 52,
