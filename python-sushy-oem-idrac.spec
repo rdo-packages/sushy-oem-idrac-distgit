@@ -11,7 +11,6 @@
 # End of macros for py2/py3 compatibility
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
-%global with_doc 1
 %global sname sushy-oem-idrac
 %global pname sushy_oem_idrac
 
