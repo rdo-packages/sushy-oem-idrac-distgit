@@ -1,14 +1,3 @@
-# Macros for py2/py3 compatibility
-%if 0%{?fedora} || 0%{?rhel} > 7
-%global pyver %{python3_pkgversion}
-%else
-%global pyver 2
-%endif
-%global pyver_bin python%{pyver}
-%global pyver_sitelib %python%{pyver}_sitelib
-%global pyver_install %py%{pyver}_install
-%global pyver_build %py%{pyver}_build
-# End of macros for py2/py3 compatibility
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global sname sushy-oem-idrac
@@ -32,42 +21,42 @@ BuildArch: noarch
 %description
 %{common_desc}
 
-%package -n python%{pyver}-%{sname}
+%package -n python3-%{sname}
 Summary: An extension for the Sushy library to communicate with Redfish-enabled Dell/EMC servers
-%{?python_provide:%python_provide python%{pyver}-%{sname}}
+%{?python_provide:%python_provide python3-%{sname}}
 
 BuildRequires: git
-BuildRequires: python%{pyver}-devel
-BuildRequires: python%{pyver}-pbr
-BuildRequires: python%{pyver}-setuptools
+BuildRequires: python3-devel
+BuildRequires: python3-pbr
+BuildRequires: python3-setuptools
 # For running unit tests during check phase
-BuildRequires: python%{pyver}-dateutil
-BuildRequires: python%{pyver}-six
-BuildRequires: python%{pyver}-stestr
-BuildRequires: python%{pyver}-sushy
+BuildRequires: python3-dateutil
+BuildRequires: python3-six
+BuildRequires: python3-stestr
+BuildRequires: python3-sushy
 
-Requires: python%{pyver}-pbr >= 2.0.0
-Requires: python%{pyver}-six >= 1.10.0
-Requires: python%{pyver}-dateutil >= 2.7.0
-Requires: python%{pyver}-sushy >= 2.0.0
+Requires: python3-pbr >= 2.0.0
+Requires: python3-six >= 1.10.0
+Requires: python3-dateutil >= 2.7.0
+Requires: python3-sushy >= 2.0.0
 
 
-%description -n python%{pyver}-%{sname}
+%description -n python3-%{sname}
 %{common_desc}
 
-%package -n python%{pyver}-%{sname}-tests
+%package -n python3-%{sname}-tests
 Summary: An extension for the Sushy library to communicate with Redfish-enabled Dell/EMC servers - tests
-Requires: python%{pyver}-%{sname} = %{version}-%{release}
+Requires: python3-%{sname} = %{version}-%{release}
 
-BuildRequires: python%{pyver}-mock
-BuildRequires: python%{pyver}-oslotest
-BuildRequires: python%{pyver}-testtools
+BuildRequires: python3-mock
+BuildRequires: python3-oslotest
+BuildRequires: python3-testtools
 
-Requires: python%{pyver}-mock
-Requires: python%{pyver}-oslotest
-Requires: python%{pyver}-testtools
+Requires: python3-mock
+Requires: python3-oslotest
+Requires: python3-testtools
 
-%description -n python%{pyver}-%{sname}-tests
+%description -n python3-%{sname}-tests
 %{common_desc}
 
 This package contains unit tests.
@@ -79,22 +68,22 @@ This package contains unit tests.
 rm -f *requirements.txt
 
 %build
-%{pyver_build}
+%{py3_build}
 
 %check
-stestr-%{pyver} run --slowest
+stestr-3 run --slowest
 
 %install
-%{pyver_install}
+%{py3_install}
 
-%files -n python%{pyver}-%{sname}
+%files -n python3-%{sname}
 %license LICENSE
-%{pyver_sitelib}/%{pname}
-%{pyver_sitelib}/%{pname}-*.egg-info
-%exclude %{pyver_sitelib}/%{pname}/tests
+%{python3_sitelib}/%{pname}
+%{python3_sitelib}/%{pname}-*.egg-info
+%exclude %{python3_sitelib}/%{pname}/tests
 
-%files -n python%{pyver}-%{sname}-tests
+%files -n python3-%{sname}-tests
 %license LICENSE
-%{pyver_sitelib}/%{pname}/tests
+%{python3_sitelib}/%{pname}/tests
 
 %changelog
