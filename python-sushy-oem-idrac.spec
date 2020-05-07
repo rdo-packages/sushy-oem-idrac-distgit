@@ -8,8 +8,8 @@ Sushy OEM iDRAC is a Python extension module for the Sushy library \
 to communicate with Redfish-enabled Dell/EMC servers (http://redfish.dmtf.org).
 
 Name: python-%{sname}
-Version: XXX
-Release: XXX
+Version: 0.0.2
+Release: 1%{?dist}
 Summary: An extension for the Sushy library to communicate with Redfish-enabled Dell/EMC servers
 License: ASL 2.0
 URL: https://opendev.org/x/%{sname}
@@ -87,3 +87,6 @@ stestr-3 run --slowest
 %{python3_sitelib}/%{pname}/tests
 
 %changelog
+* Thu May 07 2020 RDO <dev@lists.rdoproject.org> 0.0.2-1
+- Update to 0.0.2
+
