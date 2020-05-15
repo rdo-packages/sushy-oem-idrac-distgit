@@ -99,3 +99,4 @@ stestr-%{pyver} run --slowest
 %{pyver_sitelib}/%{pname}/tests
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/x/sushy-oem-idrac71050eaca6e2daaeca318db40e9c6f0b3dff67ba
