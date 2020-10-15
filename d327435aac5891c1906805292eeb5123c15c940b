@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba7d16a2_51b669d4",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-10-15T16:47:20Z",
+      "side": 1,
+      "message": "pypi",
+      "revId": "d327435aac5891c1906805292eeb5123c15c940b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
