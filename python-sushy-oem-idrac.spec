@@ -25,7 +25,7 @@ BuildArch: noarch
 Summary: An extension for the Sushy library to communicate with Redfish-enabled Dell/EMC servers
 %{?python_provide:%python_provide python3-%{sname}}
 
-BuildRequires: git
+BuildRequires: git-core
 BuildRequires: python3-devel
 BuildRequires: python3-pbr
 BuildRequires: python3-setuptools
