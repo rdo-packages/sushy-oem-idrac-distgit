@@ -31,12 +31,10 @@ BuildRequires: python3-pbr
 BuildRequires: python3-setuptools
 # For running unit tests during check phase
 BuildRequires: python3-dateutil
-BuildRequires: python3-six
 BuildRequires: python3-stestr
 BuildRequires: python3-sushy
 
 Requires: python3-pbr >= 2.0.0
-Requires: python3-six >= 1.10.0
 Requires: python3-dateutil >= 2.7.0
 Requires: python3-sushy >= 2.0.0
 
