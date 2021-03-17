@@ -90,3 +90,4 @@ stestr-3 run --slowest
 * Thu May 07 2020 RDO <dev@lists.rdoproject.org> 0.0.2-1
 - Update to 0.0.2
 
+# REMOVEME: error caused by commit https://opendev.org/x/sushy-oem-idrac/commit/1020e805d368684080660f10a5ee207d119c2b07
