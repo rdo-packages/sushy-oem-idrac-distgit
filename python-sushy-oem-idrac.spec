@@ -89,4 +89,3 @@ stestr-3 run --slowest
 %changelog
 * Thu May 07 2020 RDO <dev@lists.rdoproject.org> 0.0.2-1
 - Update to 0.0.2
-
