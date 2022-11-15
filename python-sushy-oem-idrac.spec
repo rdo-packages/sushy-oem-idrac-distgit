@@ -36,7 +36,7 @@ BuildRequires: python3-sushy
 
 Requires: python3-pbr >= 2.0.0
 Requires: python3-dateutil >= 2.7.0
-Requires: python3-sushy >= 3.11.0
+Requires: python3-sushy >= 4.0.0
 
 
 %description -n python3-%{sname}
