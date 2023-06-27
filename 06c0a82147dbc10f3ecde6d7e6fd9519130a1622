@@ -46,6 +46,30 @@
       },
       "revId": "06c0a82147dbc10f3ecde6d7e6fd9519130a1622",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98b0c593_c96da2c6",
+        "filename": "python-sushy-oem-idrac.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-27T11:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a573507_6aad44ac",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 20
+      },
+      "revId": "06c0a82147dbc10f3ecde6d7e6fd9519130a1622",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
