@@ -86,3 +86,4 @@ done
 %{python3_sitelib}/%{pname}/tests
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/x/sushy-oem-idrac/commit/34b96be03be122c05ecf542310bdff59e3e49ebe
